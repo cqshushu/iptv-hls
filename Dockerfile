@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 复制应用程序代码
 COPY app.py .
 COPY config/ ./config/
-COPY hls/ ./hls/
+#COPY hls/ ./hls/
 
 # 暴露 Flask 应用程序的端口
 EXPOSE 50086
