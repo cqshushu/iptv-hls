@@ -29,7 +29,6 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           
-
       - name: Build and push multi-architecture Docker image
         uses: docker/build-push-action@v3  # 更新到 v3
         with:
