@@ -34,5 +34,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: your-dockerhub-username/iptv-hls:latest
+          tags: cqshushu/iptv-hls:latest
           platforms: linux/${{ matrix.architecture }}
